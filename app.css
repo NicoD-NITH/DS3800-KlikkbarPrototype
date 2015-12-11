@@ -163,6 +163,11 @@ nav button {
 		min-height: 89vh;
 		max-height: 94vh;
 	}
+	.container img{
+		position: relative;
+		width: 100%;
+
+	}
 	.container button{
 		position: relative;
 		width: 30%;
