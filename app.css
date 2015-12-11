@@ -24,9 +24,8 @@ html {
 }
 	
 .section {
-	top: 50px;
     display: none;
-    width: 98%;
+    width: 99%;
     margin-left: auto;
     margin-right: auto;
     border: 2px;
@@ -50,16 +49,36 @@ h1,p,h4 {
 	color: white;
 }
 
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 50vh;
-	max-width: 50vh;
-	min-width: 50vh;
-	max-width: 50vh;
+#home{
+	background: url(./navImages/home.png);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
 }
-
+#agenda{
+	background: url(./navImages/agenda.png);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+}
+#register{
+	background: url(./navImages/register.png);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+}
+#stats{
+	background: url(./navImages/stats.png);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+}
+#activity{
+	background: url(./navImages/add.png);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+}
 /*@media screen and (orientation:portrait) {
 	img {
 		display: block;
@@ -82,17 +101,6 @@ img {
 		max-width: 60vh;
 	}
 }*/
-.add-picture-url {
-display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.add-picture-button {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 nav {
 	display: block;
@@ -118,12 +126,16 @@ nav:after {
 nav button {
     background: rgba(39, 40, 51, 0.965);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
-    height: 40px;
     float: left;
+    min-height: 10vh;
+    max-height: 25vh;
     width: 20%;
     color: inherit;
     position: inherit;
     font: inherit;
+    background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
 }
 
 *, *:before, *:after {
@@ -290,34 +302,3 @@ nav button {
 		}
 
 	}
-.leftNavButton {
-	height: 40px; 
-	width: 40px; 
-	left: 2px;
-	position: absolute;
-	top: 45%;
-}
-.rightNavButton {
-	height: 40px; 
-	width: 40px; 
-	right: 2px; 
-	position: absolute;
-	top: 45%;
-}
-.topNavButton {
-	height: 40px; 
-	width: 40px; 
-	top: 5px;
-	position: absolute;
-	left: 45%;
-}
-.bottomNavButton {
-	height: 40px; 
-	width: 40px; 
-	position: absolute;
-	bottom: 5px;
-	left: 45%;
-}
-.navigationbuttons{
-	position: ;
-}
