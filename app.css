@@ -19,6 +19,9 @@ body {
     z-index: 10;
 }
 
+html {
+	min-height: 100vh;
+}
 	
 .section {
 	top: 50px;
@@ -95,6 +98,7 @@ nav {
 	display: block;
 	color: white;
 	position: relative;
+	bottom: 0;
 	margin-left: 1%;
 	padding: 0;
 	border: 0;
@@ -116,7 +120,7 @@ nav button {
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
     height: 40px;
     float: left;
-    width: 33%;
+    width: 20%;
     color: inherit;
     position: inherit;
     font: inherit;
