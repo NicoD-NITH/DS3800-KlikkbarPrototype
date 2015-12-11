@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DS3800</title>
+    <link rel="stylesheet" href="app.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"/>
+</head>
+<body>
+
+<!--
+<nav id="nav">
+    <button data-target="main">Forside</button>
+    <button data-target="pictures">Legg til bilder</button>
+    <button data-target="slideshow">Slideshow</button>
+</nav>
+-->
+
+
+<section class="home section active">
+    <div class="container">
+        <header>
+            <h1>Profile</h1>
+
+            <h4>Gruppemedlemmer:</h4>
+
+            <p>
+                Nicolai Berg </br>
+                Joakim Lund </br>
+                Olai S. Frantzen </br>
+                Jesper Martinsen Førisdahl </br>
+                Odin Fasting </br>
+            </p>
+        </header>
+    </div>
+</section>
+
+<section class="register section">
+    <h1>Register Activity</h1>
+    <img id="defaultImage" src="./pictures/default.jpg" />
+    <br>
+    <input class="add-picture-url" id="add-picture-url" type="text" />
+    <br>
+    <button class="add-picture-button" onclick="save()">Legg til</button>
+</section>
+
+<section class="activity section">
+    <h1>Slideshow</h1>
+    <br>
+</section>
+
+<section class="statistics section">
+    <h1>Statistics</h1>
+    <br>
+</section>
+
+<!--TEST KODE START-->
+<section class="navigationbuttons">
+    <button class="topNavButton" data-target="home" src="./navImages/home.jpg">T</button>
+    <button class="leftNavButton" data-target="register" src="./navImages/register.jpg">L</button>
+    <button class="rightNavButton" data-target="activity" src="./navImages/activity.jpg">R</button>
+    <button class="bottomNavButton" data-target="statistics" src="./navImages/statistics.jpg">B</button>
+</section>
+<!--TEST KODE START-->
+
+    <script type="text/javascript" src="resources/jquery.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
