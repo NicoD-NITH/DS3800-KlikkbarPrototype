@@ -22,7 +22,19 @@ body {
 html {
 	min-height: 100vh;
 }
-	
+
+input{
+	float: right;
+	clear: both;
+	margin-right: 5px;
+}
+
+select{
+	float: right;
+	clear: both;
+	margin-right: 5px;
+}
+
 .section {
     display: none;
     width: 99%;
@@ -150,6 +162,12 @@ nav button {
 		margin-right: auto;
 		min-height: 89vh;
 		max-height: 94vh;
+	}
+	.container button{
+		position: relative;
+		width: 30%;
+		left: 35%;
+		right: 35%;
 	}
 
 	.container.\31 25\25 {
